@@ -10,14 +10,33 @@ body {
 }
 .nav {
     display: flex;
-    color: #FEFEFE;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    background-color: #F8F8F8;
+    height: 60px;
+    padding: 0 5px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.nav-ladoIzquierdo{
+    display: flex;
+    font-size: 13px;
+     align-items: center;
 }
 .logo {
     display: flex;
+    align-items: center;
+    gap: 8px;
 }
 .logo img {
+    height: 60px;
+    width: auto;
+}
+.nav-ladoDerecho{
+    display: flex;
+    flex-direction: row;
+    
+}
+.nav-ladoDerecho img {
     height: 50px;
     width: auto;
 }
